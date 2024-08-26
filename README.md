@@ -1,7 +1,3 @@
-Here's a README file description you can use for your GitHub profile for the **EmoSentry: Emoji-Powered Hate Speech Detection with Bi-LSTM and GloVe Embeddings** project:
-
----
-
 # EmoSentry: Emoji-Powered Hate Speech Detection with Bi-LSTM and GloVe Embeddings
 
 ## Overview
