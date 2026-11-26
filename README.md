@@ -9,6 +9,8 @@ sarcasm detection or sarcasm-specific features.
 
 ## What the notebook does
 
+Cell numbers count from 0.
+
 | Cells | Step |
 |---|---|
 | 0-3 | Load `MPD.xlsx`, strip mentions, hashtags, links and stop words, draw a word cloud |
@@ -75,8 +77,8 @@ from Colab's secret store rather than typing the key into a cell.
 export YOUTUBE_API_KEY=your-key
 ```
 
-Replace `VIDEO_ID` in the cell with the ID of a stream that is currently live. Run cell 17 first, since cell 18 relies
-on its `pad_sequences` import.
+Replace `VIDEO_ID` in the cell with the ID of a stream that is currently live. Cell 18 uses
+`pad_sequences` without importing it (cells 16 and 17 do) and loads the model saved by cell 16.
 
 ## Known problems
 
