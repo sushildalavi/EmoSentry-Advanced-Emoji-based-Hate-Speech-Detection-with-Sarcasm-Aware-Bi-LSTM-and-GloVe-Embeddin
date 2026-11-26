@@ -1,0 +1,27 @@
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Files the notebook downloads or writes
+glove.6B.zip
+glove.6B.*.txt
+*.h5
+*.keras
+*.pickle
+
+# Agent instructions
+CLAUDE.md
+AGENTS.md
