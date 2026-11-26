@@ -1,11 +1,10 @@
-# EmoSentry
+# emosentry
 
 A single Jupyter notebook, written in Google Colab, that classifies tweets as hateful or normal. It compares four
 bag-of-words classifiers with a bidirectional LSTM on GloVe embeddings, converts emoji to their text names during
 preprocessing, and ends with an experiment that reads comments from a YouTube live chat.
 
-This is an exploratory project, not a service. The repository name mentions sarcasm awareness, but the notebook has no
-sarcasm detection or sarcasm-specific features.
+This is an exploratory project, not a service.
 
 ## What the notebook does
 
